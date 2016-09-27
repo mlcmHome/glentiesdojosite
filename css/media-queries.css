@@ -1,0 +1,116 @@
+
+@media (max-width:920px)
+{
+	.pageWrapper
+	{
+		width:100%;
+		border: none;
+	
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+	}
+	
+	.header .logo .logoImage
+	{
+		width:60%;
+	}
+}
+
+@media (max-width:800px)
+{
+	.footer .companyLogo 
+	{
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+}
+
+@media (max-width:560px)
+{
+	.topbar .topbarContentWrapper .contactDetails
+	{
+		float:none;
+		margin:auto;
+	}
+
+	.header .logo .logoImage
+	{
+			padding:20px;
+			width:100%;
+	}
+	
+	.footer .footerContentWrapper
+	{
+		padding-top: 10px;
+	}
+
+	.footer .companyLogo 
+	{
+		float: none;
+		margin: auto;
+		display: table;
+		position: relative
+	}
+	
+	.companyDetails .addressDetails, .companyDetails .ownershipDetails
+	{
+			text-align:center;
+	}
+	
+	.companyDetails .contactDetails
+	{
+		float:none;
+		margin:auto;
+	}
+	
+}
+
+@media (max-width:400px)
+{
+	.topbar .topbarContentWrapper .contactDetails 
+	{
+		display:none;
+	}
+	
+	.header .logo .logoImage
+	{
+			padding:10px;
+	}
+	
+	.footer .footerContentWrapper
+	{
+		padding-top: 5px;
+	}
+
+	.contactDetails .faxEmailDetails 
+	{
+    		margin-left: 0px;
+	}
+
+	.companyDetails .contactDetails
+	{
+		width: 206px;
+		margin: 5px auto 5px auto;
+	}
+
+	.contactDetails .phoneMobileDetails
+	{
+		float:none;
+		width:98px;
+		margin:auto;
+	}
+
+	.faxEmailDetails .faxDetails
+	{
+		float: none;
+		width: 102px;
+		margin: auto;
+	}
+	
+	.footer .companyLogo img 
+	{
+		width:90px;
+	}
+}

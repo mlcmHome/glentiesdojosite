@@ -1,0 +1,254 @@
+
+
+body
+{
+/* 	background-image: url('../images/logo-background.png'); */
+	background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-color: white;
+	
+}
+
+.pageWrapper
+{
+	/* width:900px; */
+	width:100%;
+	margin:auto;
+	/* border: solid #700D5F 1px;
+	
+	-webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 10px;
+    -moz-box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+    box-shadow: rgba(0,0,0,0.8) 0 0 10px; */
+	
+/* 	background-image: url('../images/irish-harp-background.png'); */
+	background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+	background-color: white;
+	
+	font-family: 'Open Sans', sans-serif;
+}
+
+.topbar
+{
+	background-color:#700D5E;
+	width:100%;
+	min-height:15px;
+}
+
+.topbar a
+{
+	color:white;
+}
+.topbar a:hover
+{
+	color:#78B6E4;
+}
+
+.topbar .topbarContentWrapper
+{
+	display: inline-block;
+	width:100%;
+	color:white;
+	padding: 2px 10px 2px 10px;
+}
+
+.topbar .topbarContentWrapper .contactDetails
+{
+	float: right;
+}
+
+.topbar .topbarContentWrapper .contactDetails div
+{
+	display:inline-block;
+	margin-right: 5px;
+}
+
+.header .logo .logoImage
+{
+	width: 40%;
+	padding: 5px;
+}
+
+.navbar-default
+{
+ 	background: -webkit-linear-gradient(left, #700D5F , #78B6E4); 
+	background: -o-linear-gradient(right, #700D5F, #78B6E4);
+	background: -moz-linear-gradient(right, #700D5F, #78B6E4);
+	background: linear-gradient(to right, #700D5F , #78B6E4); 
+	
+	border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+	
+	border:none;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus
+{
+	color:white;
+	/* background: linear-gradient(#700D5F, #78B6E4 , #700D5F); */
+	background-color: #78B6E4;
+}
+
+.navbar-default .navbar-nav > li > a:hover
+{
+	color:white;
+}
+
+.navbar-default .navbar-nav > li > a
+{
+	color:#78B6E4;
+}
+
+.navbar-collapse
+{
+	border-top:none;
+}
+
+.sliderWrapper
+{
+	border: solid black 1px;
+	/* display:none; */
+}
+
+.mainContent
+{
+	opacity:1;
+	
+	transition: opacity 0.5s;
+    transition-timing-function: linear;
+    -webkit-transition: opacity 0.5s;
+    -webkit-transition-timing-function: linear;
+}
+
+.mainContent.fadeOut
+{
+	opacity:0;
+	
+	transition: opacity 0.5s;
+    transition-timing-function: linear;
+    -webkit-transition: opacity 0.5s;
+    -webkit-transition-timing-function: linear;
+}
+
+.footer
+{
+	border-top : solid #700D5F 1px;
+}
+
+.footer .footerContentWrapper
+{
+	display:inline-block;
+	width:100%;
+	padding: 20px 15px 20px 15px;
+	position: relative;
+}
+
+.footer .companyDetails 
+{
+	float: right;
+	color: #700D5F;
+	/* margin: 10px 10px 10px 0px; */
+}
+
+.companyDetails .companyName
+{
+	font-weight: 900;
+}
+
+.companyDetails .addressDetails, .companyDetails .contactDetailsWrapper, .companyDetails .ownershipDetails
+{
+	display: inline-block;
+	width:100%;
+}
+
+.companyDetails .contactDetailsWrapper
+{
+	display:block;
+}
+
+.companyDetails .addressDetails, .companyDetails .ownershipDetails
+{
+	text-align: right; 	
+}
+
+.companyDetails .contactDetails
+{
+	display:table; 	
+	float: right;
+}
+
+.companyDetails .contactDetails i
+{
+	color: #78B6E4;
+}
+
+.contactDetails  .phoneMobileDetails, .contactDetails  .faxEmailDetails
+{
+	float: left;
+}
+.contactDetails  .faxEmailDetails
+{
+	margin-left:40px;
+}
+
+.companyDetails .ownershipDetails div
+{
+	display: inline;
+}
+
+.companyDetails .ownershipDetails .owner
+{
+	font-weight: 900;
+}
+
+
+.contactDetails .phoneDetails div, .contactDetails .faxDetails div, .contactDetails .mobileDetails div, .contactDetails .emailDetails div
+{
+	display:inline;
+}
+
+.footer .companyDetails  .phoneIcon, .footer .companyDetails  .faxIcon, .footer .companyDetails  .emailIcon, .footer .companyDetails  .mobileIcon
+{
+/* 	margin: 0px 0px 0px 5px;
+	padding: 10px 5px 10px 5px;
+	
+	border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px; */
+    min-width:40px;
+	font-size: 20px;
+}
+
+.footer .companyLogo
+{
+	float: left;
+}
+
+.footer .companyLogo img
+{
+	width: 120px 	;
+}
+
+.BottomBar
+{
+	background-color:#700D5E;
+	width:100%;
+	min-height:15px;
+}
+
+.BottomBar .bottomBarContentWrapper
+{
+	width:100%;
+	color:white;
+	padding: 2px 10px 2px 10px;
+}
+
+.BottomBar .bottomBarContentWrapper .copyrights
+{
+	width:100%;
+}
