@@ -10,7 +10,7 @@ body
 	background-color: white;
 	
 }
-
+	.gallery div { float:left; padding:1px; }
 .pageWrapper
 {
 	/* width:900px; */
