@@ -11,6 +11,8 @@ body
 	
 }
 	.gallery div { float:left; padding:1px; }
+	
+	.gallery img { padding:10px; border:black 1px solid; background-color:black;}
 .pageWrapper
 {
 	/* width:900px; */
