@@ -10,9 +10,10 @@ body
 	background-color: white;
 	
 }
-	.gallery div { float:left; padding:1px; }
-	
-	.gallery img { padding:10px; border:black 1px solid; background-color:black;}
+	.gallery div { float:left; padding:9px; height:250px;}
+	.gallery img {vertical-align: middle;
+    box-shadow: black 2px 2px 2px 2px;}
+
 .pageWrapper
 {
 	/* width:900px; */
