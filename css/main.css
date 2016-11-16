@@ -20,10 +20,12 @@ body
 	width:100%;
 	margin:auto;
 	/* border: solid #700D5F 1px;
+
 	
 	-webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 10px;
     -moz-box-shadow: rgba(0,0,0,0.8) 0 0 10px;
     box-shadow: rgba(0,0,0,0.8) 0 0 10px; */
+    overflow: hidden;
 	
 /* 	background-image: url('../images/irish-harp-background.png'); */
 	background-position: center;
